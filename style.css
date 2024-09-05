@@ -16,3 +16,20 @@ body{
     box-shadow: #E6B9A6;
 
 }
+
+button{
+    background-color: #8a533c;
+    color: whitesmoke;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+    height: auto;
+    font-size: 10pt;
+}
+
+button:hover{
+    background-color: #E6B9A6;
+    color: grey;
+}
