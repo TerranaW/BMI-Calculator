@@ -1,7 +1,7 @@
 body{
     background: url('asset/scales-measuring-tape-gray-floor-weight-loss-concept_926199-2762722.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size:cover;
     font-family: "Poppins", sans-serif;
 }
 
@@ -16,6 +16,7 @@ body{
     box-shadow: #E6B9A6;
 
 }
+
 .title{
     display: flex;
     justify-content: center;
@@ -53,6 +54,7 @@ button{
     width: 30%;
     height: auto;
     font-size: 10pt;
+    border: solid whitesmoke;
 }
 
 button:hover{
@@ -63,10 +65,18 @@ button:hover{
 input {
     border-radius: 3px;
     margin-right: 10px;
-    
+    height: 20px;
+    box-shadow: none;
+    background-color: rgb(239, 230, 212);
+    border: thin grey ;
 }
 
 label{
     margin-bottom: 10px;
     font-size: small;
+}
+
+#result{
+    font-size:medium;
+    text-align: center;
 }
