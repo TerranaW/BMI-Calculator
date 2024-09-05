@@ -16,6 +16,32 @@ body{
     box-shadow: #E6B9A6;
 
 }
+.title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title h2{
+    text-align: center;
+
+
+}
+
+.title p{
+    margin-top: -3%;
+    font-size: small;
+    margin-bottom: 5%;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
 
 button{
     background-color: #8a533c;
@@ -32,4 +58,15 @@ button{
 button:hover{
     background-color: #E6B9A6;
     color: grey;
+}
+
+input {
+    border-radius: 3px;
+    margin-right: 10px;
+    
+}
+
+label{
+    margin-bottom: 10px;
+    font-size: small;
 }
